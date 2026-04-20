@@ -3,34 +3,60 @@
   "description": "Un diario personal de sueños donde puedes registrar tus sueños cada noche y descubrir patrones recurrentes",
   "requirements": [
     {
-      "title": "Página de inicio",
-      "description": "Landing page principal con información del producto",
-      "priority": "alta"
+      "id": 1,
+      "title": "Registrar sueños diarios",
+      "description": "El usuario puede anotar lo que soñó cada noche, escribiendo una descripción libre de su sueño junto con la fecha",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Autenticación de usuarios",
-      "description": "Login y registro con validación de formularios",
-      "priority": "alta"
+      "id": 2,
+      "title": "Buscar patrones en los sueños",
+      "description": "La app analiza los sueños guardados y muestra patrones recurrentes como temas, personas, lugares o emociones que se repiten",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Panel de administración",
-      "description": "Dashboard para gestionar los datos de la aplicación",
-      "priority": "media"
+      "id": 3,
+      "title": "Registrar sueños con descripción y etiquetas",
+      "description": "El usuario puede escribir un sueño con una descripción corta y añadir etiquetas personalizadas como \"pesadilla\", \"volar\", \"familia\" para clasificar sus sueños.",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "API REST completa",
-      "description": "Endpoints CRUD para todas las entidades del dominio",
-      "priority": "alta"
+      "id": 4,
+      "title": "Calidad del sueño con estrellas",
+      "description": "El usuario puede valorar la calidad de su sueño del 1 al 5 usando estrellas cada vez que registra un sueño.",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Diseño responsive",
-      "description": "Interfaz adaptada a móvil, tablet y escritorio",
-      "priority": "media"
+      "id": 5,
+      "title": "Emoción principal del sueño",
+      "description": "El usuario puede seleccionar una emoción principal que sintió durante o después del sueño (ej: miedo, alegría, confusión, paz).",
+      "type": "feature",
+      "priority": "high"
     },
     {
-      "title": "Tests unitarios",
-      "description": "Cobertura de tests para la lógica de negocio principal",
-      "priority": "baja"
+      "id": 6,
+      "title": "Vista de calendario",
+      "description": "La app muestra un calendario donde el usuario puede ver qué días registró sueños y acceder a ellos tocando el día.",
+      "type": "feature",
+      "priority": "high"
+    },
+    {
+      "id": 7,
+      "title": "Diseño oscuro noche estrellada",
+      "description": "La app tiene un tema visual oscuro inspirado en una noche estrellada, con colores profundos y detalles que evocan el cielo nocturno.",
+      "type": "ui",
+      "priority": "high"
+    },
+    {
+      "id": 8,
+      "title": "Almacenamiento local sin cuenta",
+      "description": "Todos los sueños se guardan únicamente en el dispositivo del usuario. No hay registro, login ni sincronización con servidores externos.",
+      "type": "data",
+      "priority": "high"
     }
   ]
 }
